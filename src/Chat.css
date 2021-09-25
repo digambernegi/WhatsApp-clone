@@ -1,0 +1,38 @@
+.chat {
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(188, 207, 213, 0.24);
+  padding: 7px 20px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.add_new > h2 {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.chat img {
+  height: 30px;
+  /* border: 1px solid black; */
+}
+.chat:hover {
+  background-color: #ebebeb;
+}
+
+.chat__Info {
+  justify-content: center;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.chat__Info > h2 {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.chat__Info > p {
+  margin: 5px 0;
+}
